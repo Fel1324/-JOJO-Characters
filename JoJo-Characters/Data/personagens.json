@@ -1,0 +1,19 @@
+[
+    {
+        "Numero": 1,
+        "Nome": "Jonathan Joestar",
+        "Descricao": "Jonathan é alto (195 cm) e extremamente musculoso, com o toque de um cavalheiro. Seu traje típico reflete seu passado nobre, caracterizado por túnicas estilizadas sobre camisas de manga longa. Os adereços consistem em gravata borboleta, botas grossas e colete.",
+        "Poder": "Ramon",
+        "Parte": "Parte01",
+        "Imagem": "\\img\\personagens\\jonathan.jpg"
+    },
+
+    {
+        "Numero": 2,
+        "Nome": "Dio Brando",
+        "Descricao": "é o principal antagonista de ambos Parte I: Phantom Blood e Parte III: Stardust Crusaders. Por conta de acontecimentos nas outras partes, Dio, acaba influenciando indiretamente nos principais acontecimentos da Parte VI: Stone Ocean. Originalmente um homem de origem humilde, mas no fundo um manipulador frio e sádico, Dio é um vilão profundo onde o seus objetivos estão a cima de qualquer coisa. A sua aparência é de um homem alto, forte, loiro, olhos vermelhos, é detalhado na obra o quanto sua presença dá um ar frio as cenas.",
+        "Poder": "Vampiro, Stand: The world",
+        "Parte": "Parte01, Parte02, Parte03, Parte04, Parte06",
+        "Imagem": "\\img\\personagens\\dio.jpg"
+    }
+]
