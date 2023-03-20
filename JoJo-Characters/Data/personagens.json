@@ -1,19 +1,109 @@
 [
     {
-        "Numero": 1,
         "Nome": "Jonathan Joestar",
-        "Descricao": "Jonathan é alto (195 cm) e extremamente musculoso, com o toque de um cavalheiro. Seu traje típico reflete seu passado nobre, caracterizado por túnicas estilizadas sobre camisas de manga longa. Os adereços consistem em gravata borboleta, botas grossas e colete.",
-        "Poder": "Ramon",
-        "Parte": "Parte01",
-        "Imagem": "\\img\\personagens\\jonathan.jpg"
+        "Sexo": "Masculino",
+        "País de nascimento": "Inglaterra",
+        "Altura": 195,
+        "Peso": 105,
+        "Raça": "Humano",
+        "Stand": "Não tem",
+        "Parte": ["Parte01"],
+        "Imagem": "\\img\\personagens\\Jonathan.jpg"
     },
 
     {
-        "Numero": 2,
         "Nome": "Dio Brando",
-        "Descricao": "é o principal antagonista de ambos Parte I: Phantom Blood e Parte III: Stardust Crusaders. Por conta de acontecimentos nas outras partes, Dio, acaba influenciando indiretamente nos principais acontecimentos da Parte VI: Stone Ocean. Originalmente um homem de origem humilde, mas no fundo um manipulador frio e sádico, Dio é um vilão profundo onde o seus objetivos estão a cima de qualquer coisa. A sua aparência é de um homem alto, forte, loiro, olhos vermelhos, é detalhado na obra o quanto sua presença dá um ar frio as cenas.",
-        "Poder": "Vampiro, Stand: The world",
-        "Parte": "Parte01, Parte02, Parte03, Parte04, Parte06",
-        "Imagem": "\\img\\personagens\\dio.jpg"
+        "Sexo": "Masculino",
+        "País de nascimento": "Inglaterra",
+        "Altura": 195,
+        "Peso": 180,
+        "Raça": "Vampiro (Ex-humano)",
+        "Stand": ["The World", "The Passion"],
+        "Parte": ["Parte01", "Parte02", "Parte03", "Parte04", "Parte06"],
+        "Imagem": "\\img\\personagens\\Dio.jpg"
+    },
+
+    {
+        "Nome": "Erina Pendleton",
+        "Sexo": "Feminino",
+        "País de nascimento": "Inglaterra",
+        "Altura": 164,
+        "Peso": 65,
+        "Raça": "Humano",
+        "Stand": "Não tem",
+        "Parte": ["Parte01", "Parte02"],
+        "Imagem": "\\img\\personagens\\Erina.jpg"
+    },
+
+    {
+        "Nome": "William Antonio Zeppeli",
+        "Sexo": "Masculino",
+        "País de nascimento": "Itália",
+        "Altura": 190,
+        "Peso": 98,
+        "Raça": "Humano",
+        "Stand": "Não tem",
+        "Parte": ["Parte01"],
+        "Imagem": "\\img\\personagens\\Zapelli.jpg"
+    },
+
+    {
+        "Nome": "George Joestar",
+        "Sexo": "Masculino",
+        "País de nascimento": "Inglaterra",
+        "Altura": 190,
+        "Peso": 82,
+        "Raça": "Humano",
+        "Stand": "Não tem",
+        "Parte": ["Parte01"],
+        "Imagem": "\\img\\personagens\\George.jpg"
+    },
+
+    {
+        "Nome": "Joseph Joestar",
+        "Sexo": "Masculino",
+        "País de nascimento": "Inglaterra",
+        "Altura": 195,
+        "Peso": 97,
+        "Raça": "Humano",
+        "Stand": "Hermit Purple",
+        "Parte": ["Parte02", "parte03", "Parte04"],
+        "Imagem": "\\img\\personagens\\Joseph.jpg"
+    },
+
+    {
+        "Nome": "Caesar Anthonio Zeppeli",
+        "Sexo": "Masculino",
+        "País de nascimento": "Itália",
+        "Altura": 186,
+        "Peso": 90,
+        "Raça": "Humano",
+        "Stand": "Não tem",
+        "Parte": ["Parte02"],
+        "Imagem": "\\img\\personagens\\Caesar.jpg"
+    },
+
+    {
+        "Nome": "Kars",
+        "Sexo": "Masculino",
+        "País de nascimento": "Continente americano",
+        "Altura": 190,
+        "Peso": 102,
+        "Raça": "Homem do pilar",
+        "Stand": "Não tem",
+        "Parte": ["Parte02"],
+        "Imagem": "\\img\\personagens\\Kars.jpg"
+    },
+
+    {
+        "Nome": "Lisa Lisa",
+        "Sexo": "Feminino",
+        "País de nascimento": "Inglaterra",
+        "Altura": 190,
+        "Peso": 102,
+        "Raça": "Homem do pilar",
+        "Stand": "Não tem",
+        "Parte": ["Parte02"],
+        "Imagem": "\\img\\personagens\\Kars.jpg"
     }
 ]
