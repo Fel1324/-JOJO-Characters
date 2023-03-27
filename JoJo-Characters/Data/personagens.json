@@ -48,15 +48,15 @@
     },
 
     {
-        "Nome": "George Joestar",
+        "Nome": "Robert E. O. Speedwagon",
         "Sexo": "Masculino",
         "País de nascimento": "Inglaterra",
-        "Altura": 190,
-        "Peso": 82,
+        "Altura": 195,
+        "Peso": 94,
         "Raça": "Humano",
         "Stand": "Não tem",
         "Parte": ["Parte01"],
-        "Imagem": "\\img\\personagens\\George.jpg"
+        "Imagem": "\\img\\personagens\\Speedwagon.jpg"
     },
 
     {
@@ -67,7 +67,7 @@
         "Peso": 97,
         "Raça": "Humano",
         "Stand": "Hermit Purple",
-        "Parte": ["Parte02", "parte03", "Parte04"],
+        "Parte": ["Parte02", "Parte03", "Parte04"],
         "Imagem": "\\img\\personagens\\Joseph.jpg"
     },
 
@@ -99,11 +99,131 @@
         "Nome": "Lisa Lisa",
         "Sexo": "Feminino",
         "País de nascimento": "Inglaterra",
-        "Altura": 190,
-        "Peso": 102,
-        "Raça": "Homem do pilar",
+        "Altura": 175,
+        "Peso": 62,
+        "Raça": "Humana",
         "Stand": "Não tem",
         "Parte": ["Parte02"],
-        "Imagem": "\\img\\personagens\\Kars.jpg"
+        "Imagem": "\\img\\personagens\\LisaLisa.jpg"
+    },
+
+    {
+        "Nome": "Suzi Q",
+        "Sexo": "Feminino",
+        "País de nascimento": "Itália",
+        "Altura": 168,
+        "Peso": 58,
+        "Raça": "Humana",
+        "Stand": "Não tem",
+        "Parte": ["Parte02"],
+        "Imagem": "\\img\\personagens\\Suzi.jpg"
+    },
+
+    {
+        "Nome": "Jotaro Kujo",
+        "Sexo": "Masculino",
+        "País de nascimento": "Japão",
+        "Altura": 195,
+        "Peso": 82,
+        "Raça": "Humano",
+        "Stand": "Star Platinum",
+        "Parte": ["Parte03", "Parte04", "Parte05", "Parte06"],
+        "Imagem": "\\img\\personagens\\Jotaro.jpg"
+    },
+
+    {
+        "Nome": "Muhammad Avdol",
+        "Sexo": "Masculino",
+        "País de nascimento": "Egito",
+        "Altura": 188,
+        "Peso": 90,
+        "Raça": "Humano",
+        "Stand": "Magician's Red",
+        "Parte": ["Parte03"],
+        "Imagem": "\\img\\personagens\\Avdol.jpg"
+    },
+
+    {
+        "Nome": "Noriaki Kakyoin",
+        "Sexo": "Masculino",
+        "País de nascimento": "Japão",
+        "Altura": 178,
+        "Peso": 65,
+        "Raça": "Humano",
+        "Stand": "Hierophant Green",
+        "Parte": ["Parte03"],
+        "Imagem": "\\img\\personagens\\Avdol.jpg"
+    },
+
+    {
+        "Nome": "Jean Pierre Polnareff",
+        "Sexo": "Masculino",
+        "País de nascimento": "França",
+        "Altura": 185,
+        "Peso": 78,
+        "Raça": "Humano",
+        "Stand": "Silver Chariot",
+        "Parte": ["Parte03", "Parte05"],
+        "Imagem": "\\img\\personagens\\Polnareff.jpg"
+    },
+
+    {
+        "Nome": "Iggy",
+        "Sexo": "Masculino",
+        "País de nascimento": "EUA",
+        "Altura": 33.3,
+        "Peso": 20,
+        "Raça": "Cachorro",
+        "Stand": "The Fool",
+        "Parte": ["Parte03"],
+        "Imagem": "\\img\\personagens\\Iggy.jpg"
+    },
+
+    {
+        "Nome": "Josuke Higashikata",
+        "Sexo": "Masculino",
+        "País de nascimento": "Japão",
+        "Altura": 180,
+        "Peso": 82,
+        "Raça": "Humano",
+        "Stand": "Crazy Diamond",
+        "Parte": ["Parte04"],
+        "Imagem": "\\img\\personagens\\Josuke.jpg"
+    },
+
+    {
+        "Nome": "Okuyasu Nijimura",
+        "Sexo": "Masculino",
+        "País de nascimento": "Japão",
+        "Altura": 178,
+        "Peso": 80,
+        "Raça": "Humano",
+        "Stand": "The Hand",
+        "Parte": ["Parte04"],
+        "Imagem": "\\img\\personagens\\Okuyasu.jpg"
+    },
+
+    {
+        "Nome": "Koichi Hirose",
+        "Sexo": "Masculino",
+        "País de nascimento": "Japão",
+        "Altura": 157,
+        "Peso": 39.5,
+        "Raça": "Humano",
+        "Stand": "Echoes",
+        "Parte": ["Parte04"],
+        "Imagem": "\\img\\personagens\\Koichi.jpg"
+    },
+
+    {
+        "Nome": "Koichi Hirose",
+        "Sexo": "Masculino",
+        "País de nascimento": "Japão",
+        "Altura": 157,
+        "Peso": 39.5,
+        "Raça": "Humano",
+        "Stand": "Echoes",
+        "Parte": ["Parte04"],
+        "Imagem": "\\img\\personagens\\Koichi.jpg"
     }
 ]
