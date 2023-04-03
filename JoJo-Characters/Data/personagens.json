@@ -2,7 +2,7 @@
     {
         "Nome": "Jonathan Joestar",
         "Sexo": "Masculino",
-        "País de nascimento": "Inglaterra",
+        "PaisDeNascimento": "Inglaterra",
         "Altura": 195,
         "Peso": 105,
         "Raça": "Humano",
@@ -14,7 +14,7 @@
     {
         "Nome": "Dio Brando",
         "Sexo": "Masculino",
-        "País de nascimento": "Inglaterra",
+        "PaisDeNascimento": "Inglaterra",
         "Altura": 195,
         "Peso": 180,
         "Raça": "Vampiro (Ex-humano)",
@@ -26,7 +26,7 @@
     {
         "Nome": "Erina Pendleton",
         "Sexo": "Feminino",
-        "País de nascimento": "Inglaterra",
+        "PaisDeNascimento": "Inglaterra",
         "Altura": 164,
         "Peso": 65,
         "Raça": "Humano",
@@ -38,7 +38,7 @@
     {
         "Nome": "William Antonio Zeppeli",
         "Sexo": "Masculino",
-        "País de nascimento": "Itália",
+        "PaisDeNascimento": "Itália",
         "Altura": 190,
         "Peso": 98,
         "Raça": "Humano",
@@ -50,7 +50,7 @@
     {
         "Nome": "Robert E. O. Speedwagon",
         "Sexo": "Masculino",
-        "País de nascimento": "Inglaterra",
+        "PaisDeNascimento": "Inglaterra",
         "Altura": 195,
         "Peso": 94,
         "Raça": "Humano",
@@ -62,7 +62,7 @@
     {
         "Nome": "Joseph Joestar",
         "Sexo": "Masculino",
-        "País de nascimento": "Inglaterra",
+        "PaisDeNascimento": "Inglaterra",
         "Altura": 195,
         "Peso": 97,
         "Raça": "Humano",
@@ -74,7 +74,7 @@
     {
         "Nome": "Caesar Anthonio Zeppeli",
         "Sexo": "Masculino",
-        "País de nascimento": "Itália",
+        "PaisDeNascimento": "Itália",
         "Altura": 186,
         "Peso": 90,
         "Raça": "Humano",
@@ -86,7 +86,7 @@
     {
         "Nome": "Kars",
         "Sexo": "Masculino",
-        "País de nascimento": "Continente americano",
+        "PaisDeNascimento": "Continente americano",
         "Altura": 190,
         "Peso": 102,
         "Raça": "Homem do pilar",
@@ -98,7 +98,7 @@
     {
         "Nome": "Lisa Lisa",
         "Sexo": "Feminino",
-        "País de nascimento": "Inglaterra",
+        "PaisDeNascimento": "Inglaterra",
         "Altura": 175,
         "Peso": 62,
         "Raça": "Humana",
@@ -110,7 +110,7 @@
     {
         "Nome": "Suzi Q",
         "Sexo": "Feminino",
-        "País de nascimento": "Itália",
+        "PaisDeNascimento": "Itália",
         "Altura": 168,
         "Peso": 58,
         "Raça": "Humana",
@@ -122,7 +122,7 @@
     {
         "Nome": "Jotaro Kujo",
         "Sexo": "Masculino",
-        "País de nascimento": "Japão",
+        "PaisDeNascimento": "Japão",
         "Altura": 195,
         "Peso": 82,
         "Raça": "Humano",
@@ -134,7 +134,7 @@
     {
         "Nome": "Muhammad Avdol",
         "Sexo": "Masculino",
-        "País de nascimento": "Egito",
+        "PaisDeNascimento": "Egito",
         "Altura": 188,
         "Peso": 90,
         "Raça": "Humano",
@@ -146,7 +146,7 @@
     {
         "Nome": "Noriaki Kakyoin",
         "Sexo": "Masculino",
-        "País de nascimento": "Japão",
+        "PaisDeNascimento": "Japão",
         "Altura": 178,
         "Peso": 65,
         "Raça": "Humano",
@@ -158,7 +158,7 @@
     {
         "Nome": "Jean Pierre Polnareff",
         "Sexo": "Masculino",
-        "País de nascimento": "França",
+        "PaisDeNascimento": "França",
         "Altura": 185,
         "Peso": 78,
         "Raça": "Humano",
@@ -170,7 +170,7 @@
     {
         "Nome": "Iggy",
         "Sexo": "Masculino",
-        "País de nascimento": "EUA",
+        "PaisDeNascimento": "EUA",
         "Altura": 33.3,
         "Peso": 20,
         "Raça": "Cachorro",
@@ -182,7 +182,7 @@
     {
         "Nome": "Josuke Higashikata",
         "Sexo": "Masculino",
-        "País de nascimento": "Japão",
+        "PaisDeNascimento": "Japão",
         "Altura": 180,
         "Peso": 82,
         "Raça": "Humano",
@@ -194,7 +194,7 @@
     {
         "Nome": "Okuyasu Nijimura",
         "Sexo": "Masculino",
-        "País de nascimento": "Japão",
+        "PaisDeNascimento": "Japão",
         "Altura": 178,
         "Peso": 80,
         "Raça": "Humano",
@@ -206,7 +206,7 @@
     {
         "Nome": "Koichi Hirose",
         "Sexo": "Masculino",
-        "País de nascimento": "Japão",
+        "PaisDeNascimento": "Japão",
         "Altura": 157,
         "Peso": 39.5,
         "Raça": "Humano",
@@ -216,14 +216,146 @@
     },
 
     {
-        "Nome": "Koichi Hirose",
+        "Nome": "Rohan Kishibe",
         "Sexo": "Masculino",
-        "País de nascimento": "Japão",
-        "Altura": 157,
-        "Peso": 39.5,
+        "PaisDeNascimento": "Japão",
+        "Altura": 175,
+        "Peso": 62,
         "Raça": "Humano",
-        "Stand": "Echoes",
+        "Stand": "Heaven's Door",
         "Parte": ["Parte04"],
-        "Imagem": "\\img\\personagens\\Koichi.jpg"
+        "Imagem": "\\img\\personagens\\Rohan.jpg"
+    },
+
+    {
+        "Nome": "Yoshikage Kira",
+        "Sexo": "Masculino",
+        "PaisDeNascimento": "Japão",
+        "Altura": 180,
+        "Peso": 65,
+        "Raça": "Humano",
+        "Stand": "Killer Queen",
+        "Parte": ["Parte04"],
+        "Imagem": "\\img\\personagens\\Kira.jpg"
+    },
+
+    {
+        "Nome": "Giorno Giovanna",
+        "Sexo": "Masculino",
+        "PaisDeNascimento": "Itália",
+        "Altura": 175,
+        "Peso": 70,
+        "Raça": "Humano",
+        "Stand": "Gold Experience",
+        "Parte": ["Parte05"],
+        "Imagem": "\\img\\personagens\\Giorno.jpg"
+    },
+
+    {
+        "Nome": "Bruno Bucciarati",
+        "Sexo": "Masculino",
+        "PaisDeNascimento": "Itália",
+        "Altura": 185,
+        "Peso": 74,
+        "Raça": "Humano",
+        "Stand": "Sticky Fingers",
+        "Parte": ["Parte05"],
+        "Imagem": "\\img\\personagens\\Bruno.jpg"
+    },
+
+    {
+        "Nome": "Diavolo",
+        "Sexo": "Masculino",
+        "PaisDeNascimento": "Itália",
+        "Altura": 191,
+        "Peso": 80,
+        "Raça": "Humano",
+        "Stand": "King Crimson",
+        "Parte": ["Parte05"],
+        "Imagem": "\\img\\personagens\\Diavolo.jpg"
+    },
+
+    {
+        "Nome": "Trish Una",
+        "Sexo": "Feminino",
+        "PaisDeNascimento": "Itália",
+        "Altura": 163,
+        "Peso": 58,
+        "Raça": "Humano",
+        "Stand": "Spice Girl",
+        "Parte": ["Parte05"],
+        "Imagem": "\\img\\personagens\\Trish.jpg"
+    },
+
+    {
+        "Nome": "Guido Mista",
+        "Sexo": "Masculino",
+        "PaisDeNascimento": "Itália",
+        "Altura": 182,
+        "Peso": 68,
+        "Raça": "Humano",
+        "Stand": "Sex Pistols",
+        "Parte": ["Parte05"],
+        "Imagem": "\\img\\personagens\\Mista.jpg"
+    },
+
+    {
+        "Nome": "Jolyne Cujoh",
+        "Sexo": "Feminino",
+        "PaisDeNascimento": "EUA",
+        "Altura": 174.5,
+        "Peso": 58,
+        "Raça": "Humano",
+        "Stand": "Stone Free",
+        "Parte": ["Parte06"],
+        "Imagem": "\\img\\personagens\\Jolyne.jpg"
+    },
+
+    {
+        "Nome": "Ermes Costello",
+        "Sexo": "Feminino",
+        "PaisDeNascimento": "México-EUA",
+        "Altura": 175,
+        "Peso": 59,
+        "Raça": "Humano",
+        "Stand": "Kiss",
+        "Parte": ["Parte06"],
+        "Imagem": "\\img\\personagens\\Ermes.jpg"
+    },
+
+    {
+        "Nome": "Enrico Pucci",
+        "Sexo": "Masculino",
+        "PaisDeNascimento": "Itália-EUA",
+        "Altura": 195,
+        "Peso": 72,
+        "Raça": "Humano",
+        "Stand": "Whitesnake",
+        "Parte": ["Parte06"],
+        "Imagem": "\\img\\personagens\\Pucci.jpg"
+    },
+
+    {
+        "Nome": "Miraschon",
+        "Sexo": "Feminino",
+        "PaisDeNascimento": "Desconhecido",
+        "Altura": 170,
+        "Peso": 65,
+        "Raça": "Humano",
+        "Stand": "Marilyn Manson",
+        "Parte": ["Parte06"],
+        "Imagem": "\\img\\personagens\\Miraschon.jpg"
+    },
+
+    {
+        "Nome": "Perla Pucci",
+        "Sexo": "Feminino",
+        "PaisDeNascimento": "EUA",
+        "Altura": 160,
+        "Peso": 58,
+        "Raça": "Humano",
+        "Stand": "Não tem",
+        "Parte": ["Parte06"],
+        "Imagem": "\\img\\personagens\\Perla.jpg"
     }
 ]
