@@ -1,5 +1,6 @@
 using JoJo_Characters.Models;
 namespace JoJo_Characters.Services;
+
 public interface IJojoService
 {
     List<Personagem> GetPersonagens();
