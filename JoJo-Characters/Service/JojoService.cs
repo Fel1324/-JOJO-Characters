@@ -7,7 +7,7 @@ public class JojoService : IJojoService
 {
     private readonly IHttpContextAccessor _session;
     private readonly string personagensFile = @"Data\personagens.json";
-    private readonly string temporadasFile = @"Data\temporadas.json";
+    private readonly string temporadasFile = @"Data\partes.json";
     public JojoService(IHttpContextAccessor session)
     {
         _session = session;
