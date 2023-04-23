@@ -7,7 +7,7 @@ public class JojoService : IJojoService
 {
     private readonly IHttpContextAccessor _session;
     private readonly string personagensFile = @"Data\personagens.json";
-    private readonly string temporadasFile = @"Data\partes.json";
+    private readonly string partesFile = @"Data\partes.json";
     public JojoService(IHttpContextAccessor session)
     {
         _session = session;
@@ -63,7 +63,7 @@ public class JojoService : IJojoService
         if (string.IsNullOrEmpty(_session.HttpContext.Session.GetString("Partes")))
         {
             _session.HttpContext.Session.SetString("Personagens", LerArquivo(personagensFile));
-            _session.HttpContext.Session.SetString("Partes", LerArquivo(temporadasFile));
+            _session.HttpContext.Session.SetString("Partes", LerArquivo(partesFile));
         }
     }
     private string LerArquivo(string fileName)

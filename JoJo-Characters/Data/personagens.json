@@ -18,7 +18,7 @@
         "Altura": 195,
         "Peso": 180,
         "Raça": "Vampiro (Ex-humano)",
-        "Stand": ["The World", "The Passion"],
+        "Stand": "The World",
         "Parte": ["Parte01", "Parte02", "Parte03", "Parte04", "Parte06"],
         "Imagem": "\\img\\personagens\\Dio.jpg"
     },
