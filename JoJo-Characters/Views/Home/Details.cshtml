@@ -8,20 +8,19 @@
         <div class="col text-center">
             @if (Model.Prior != null)
             {
-                <a asp-action="Details" asp-route-Numero="@Model.Prior.Nome" class="btn btn-lg btn-outline-dark">
-                    @Model.Prior.Nome - @Model.Prior.Nome
+                <a asp-action="Details" asp-route-Nome="@Model.Prior.Nome" class="btn btn-lg btn-outline-dark">
+                    @Model.Prior.Nome
                 </a>
             }
         </div>
         <div class="col text-center">
-            <h1 class="fs-1">@Model.Current.Nome <span class="fs-2 text-secondary">
-                    @Model.Current.Nome</span></h1>
+            <h1 class="fs-1">@Model.Current.Nome</h1>
         </div>
         <div class="col text-center">
             @if (Model.Next != null)
             {
-                <a asp-action="Details" asp-route-Numero="@Model.Next.Nome" class="btn btn-lg btn-outline-dark">
-                    @Model.Next.Nome - @Model.Next.Nome
+                <a asp-action="Details" asp-route-Nome="@Model.Next.Nome" class="btn btn-lg btn-outline-dark">
+                    @Model.Next.Nome
                 </a>
             }
         </div>
@@ -32,12 +31,12 @@
         </div>
         <div class="col-lg-7 fs-5 mt-4">
             <p class="mb-3"><strong>Sexo:</strong> @Model.Current.Sexo</p>
-            <p class="mb-3"><strong>PaisDeNascimento:</strong> @Model.Current.PaisDeNascimento</p>
+            <p class="mb-3"><strong>Pais de nascimento:</strong> @Model.Current.PaisDeNascimento</p>
             <p class="mb-3"><strong>Altura:</strong> @Model.Current.Altura cm</p>
             <p class="mb-3"><strong>Peso:</strong> @Model.Current.Peso kgs</p>
             <p class="mb-3"><strong>Raça:</strong> @Model.Current.Raça</p>
             <p class="mb-3"><strong>Stand:</strong> @Model.Current.Stand</p>
-            <p class="fw-bold">Parte</p>
+            <p class="fw-bold">Parte:</p>
             <div class="btn-group">
                 @foreach (var parte in Model.Current.Parte)
                 {

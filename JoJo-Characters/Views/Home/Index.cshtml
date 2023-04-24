@@ -8,7 +8,7 @@
         <div class="col mx-auto">
             <h1>JoJo-Characters</h1>
             <div class="group">
-                <button id="btn-all" class="btn btn-lg my-2 text-white bg-secondary btn-filter" onclick="filter('all')">
+                <button id="btn-all" class="ver-todos btn btn-lg my-2 text-white bg-secondary btn-filter" onclick="filter('all')">
                     Ver Todos
                 </button>
                 @foreach (var parte in Model.Partes)
@@ -21,17 +21,16 @@
         </div>
     </div>
 </section>
-<div class="album py-5 bg-light">
+<div class="album py-5 bg-light perso-main">
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
             <!-- Card Pokemon - Inicio -->
             @foreach (var personagem in Model.Personagens)
             {
                 <div class="col">
-                    <div class="card shadow-sm cursor-pointer @string.Join(' ', personagem.Parte).ToLower()" onclick="GetInfo(@personagem.Nome)">
+                    <div class="card shadow-sm cursor-pointer @string.Join(' ', personagem.Parte).ToLower()" onclick="GetInfo('@personagem.Nome')">
                         <img src="@personagem.Imagem" class="card-img-top" width="100%" height="300" alt="@personagem.Nome" />
                         <div class="card-body">
-                            <p class="card-text mb-0">@personagem.Nome</p>
                             <h3 class="card-title">@personagem.Nome</h3>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">

@@ -41,11 +41,10 @@
                     </div>
                 </div>
             </div>
-            <div class="navbar navbar-dark bg-danger shadow-sm">
+            <div id="header" class="navbar navbar-dark bg-danger shadow-sm">
                 <div class="container">
                     <a asp-action="Index" class="navbar-brand d-flex align-items-center">
-                        <img src="~/img/favicons/favicon-32x32.png" alt="Pokeball" class="me-2" />
-                        &nbsp;<strong>JOJO</strong>
+                        &nbsp;<strong class="logo">JOJO</strong>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
                         aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,15 +54,15 @@
             </div>
         </header>
 
-        <main>
+        <main class="main-menu">
             @RenderBody()
         </main>
 
-        <footer class="text-muted py-3 ">
+        <footer id="footer" class="text-muted py-3">
             <div class="container">
                 <p class="float-end">
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle-fill text-danger" viewBox="0 0 16 16">
+                        <svg id="arrow-button" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fad933" class="bi bi-arrow-up-circle-fill text-danger" viewBox="0 0 16 16">
                             <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
                         </svg>
                     </a>
