@@ -3,54 +3,56 @@
 @{
     ViewData["Title"] = "Home";
 }
-<section class="pt-5 pb-3 text-center container">
-    <div class="row">
-        <div class="col mx-auto">
-            <h1>JoJo-Characters</h1>
-            <div class="group">
-                <button id="btn-all" class="ver-todos btn btn-lg my-2 text-white bg-secondary btn-filter" onclick="filter('all')">
-                    Ver Todos
+<section class="parts">
+    <div class="parts__content container">
+        <img class="parts__main-title" src="~/img/logo.png" alt="">
+
+        <div class="parts__buttons">
+            <button id="btn-all" class="parts__button-all button btn-lg btn-filter" onclick="filter('all')">
+                Ver Todos
+            </button>
+
+            @foreach (var parte in Model.Partes)
+            {
+                <button id="btn-@parte.Nome.ToLower()" class="parts__button button btn-sm btn-filter" onclick="filter('@parte.Nome.ToLower()')" style="background-color:@parte.Cor">
+                    @parte.Nome
                 </button>
-                @foreach (var parte in Model.Partes)
-                {
-                    <button id="btn-@parte.Nome.ToLower()" class="btn btn-sm my-2 text-white btn-filter" onclick="filter('@parte.Nome.ToLower()')" style="background-color:@parte.Cor">
-                        @parte.Nome
-                    </button>
-                }
-            </div>
+            }
         </div>
     </div>
 </section>
-<div class="album py-5 bg-light perso-main">
-    <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
-            <!-- Card Pokemon - Inicio -->
-            @foreach (var personagem in Model.Personagens)
-            {
-                <div class="col">
-                    <div class="card shadow-sm cursor-pointer @string.Join(' ', personagem.Parte).ToLower()" onclick="GetInfo('@personagem.Nome')">
-                        <img src="@personagem.Imagem" class="card-img-top" width="100%" height="300" alt="@personagem.Nome" />
-                        <div class="card-body">
-                            <h3 class="card-title">@personagem.Nome</h3>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    @foreach (var parte in personagem.Parte)
-                                    {
-                                        <a asp-action="Index" asp-route-tipo="@parte.ToLower()" class="btn my-2 text-white" style="background-color:@service.GetParte(parte).Cor">@parte</a>
-                                    }
-                                </div>
-                            </div>
+
+<section class="characters">
+    <h1 class="characters__main-title">JoJo's Characters</h1>
+    
+    <div class="characters__content container">
+        <!-- Card Character - Inicio -->
+        @foreach (var personagem in Model.Personagens)
+        {
+            <div class="characters__cards">
+                <div class="characters__card @string.Join(' ', personagem.Parte).ToLower()" onclick="GetInfo('@personagem.Nome')">
+                    <img src="@personagem.Imagem" class="characters__img" alt="@personagem.Nome" />
+
+                    <div class="characters__desc">
+                        <h2 class="characters__title">@personagem.Nome</h2>
+
+                        <div class="characters__buttons">
+                            @foreach (var parte in personagem.Parte)
+                            {
+                                <a asp-action="Index" asp-route-tipo="@parte.ToLower()" class="characters__button button" style="background-color:@service.GetParte(parte).Cor">@parte</a>
+                            }
                         </div>
                     </div>
                 </div>
-            }
-            <!-- Card Pokemon - Fim -->
-            <div id="zeroPokemon" class="col-lg-12 text-center">
-                <h1 class="my-3 text-danger">Nenhum Personagem Encontrado</h1>
             </div>
+        }
+        <!-- Card Character - Fim -->
+        <div id="zeroCharacter">
+            <h2>Nenhum Personagem Encontrado</h2>
         </div>
     </div>
-</div>
+</section>
+
 @section Scripts{
     <script src="~/js/site.js"></script>
     <script>

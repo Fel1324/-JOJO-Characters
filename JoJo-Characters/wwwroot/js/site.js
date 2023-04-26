@@ -1,7 +1,7 @@
 ﻿function filter(part) {
     let cards, i;
     let count = 0;
-    cards = document.getElementsByClassName("card");
+    cards = document.getElementsByClassName("characters__card");
     buttons = document.getElementsByClassName("btn-filter");
     for (i = 0; i < cards.length; i++) {
         cards[i].parentElement.style.display = 'none';
@@ -25,9 +25,9 @@
         document.getElementById("btn-all").classList.add("btn-lg");
     };
     if (count == 0) {
-        document.getElementById("zeroPokemon").style.display = 'block';
+        document.getElementById("zeroCharacter").style.display = 'block';
     }
     else {
-        document.getElementById("zeroPokemon").style.display = 'none';
+        document.getElementById("zeroCharacter").style.display = 'none';
     }
 }    
