@@ -6,8 +6,8 @@
 
 ## Tópicos
 - [Algumas telas do projeto](#telas)
-- [Executando o projeto](#execute)
 - [Descrição do projeto](#desc)
+- [Executando o projeto](#execute)
 - [Tecnologias utilizadas](#tec)
 - [Status do projeto](#status)  
 - [Desenvolvedores do projeto](#devs)
